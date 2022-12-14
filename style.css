@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+.navbar-container{
+    height: 15vh;
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-container> div > img{
+    width: 120px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35vw;
+}
+.list li{
+    list-style-type: none;
+    font-family: 'orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.list li:nth-child(1){
+    font-size: 18px;
+    position: relative;
+}
+.list li:nth-child(1)::after{
+    content: "";
+    position: absolute;
+    width: 70%;
+    display: block;
+    height: 2px;
+    background-color: #343434;
+    bottom: -3px;
+    left: 20%;
+}
+.button-group{
+    display: flex;
+    align-items: center;
+}
+.search-icon svg{
+    fill: aqua;
+}
+.nav-button{
+    padding: 3px 25px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 2px solid #343434;
+    font-family: 'poppins', sans-serif;
+    color: #343434;
+    background-color: transparent;
+}
+.hero-container{
+    margin: 20px 80px 0 80px;
+    display: flex;
+}
+.square img{
+    position: absolute;
+    bottom: 30px;
+    left: 145px;
+    height: 300px;
+    z-index: -1;
+}
+.star{
+    z-index: 1;
+    position: absolute;
+    top: 21%;
+    right: 15%;
+}
+.star img{
+    height: 55px;
+}
+.starTwo{
+    z-index: 1;
+    position: absolute;
+    left: 38%;
+    bottom: 12%;
+}
+.starTwo img{
+    height: 40px;
+}
+.globe{
+    z-index: 9;
+    position: absolute;
+    top: 16%;
+    right: 42%;
+}
+.globe img{
+    height: 55px;
+}
+.globe + div img{
+    margin-top: 50px;
+    height: 380px;
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0 -40px 70px;
+}
+.hero-heading{
+    font-size: 55px;
+    font-family: 'orbitron', 'sans-serif';
+}
+.hero-description{
+    font-size: 12px;
+    font-family: 'poppins', 'sans-serif';
+    width: 60%;
+    text-align: center;
+    margin-top: -25px;
+}
+.button-email{
+    padding: 3px 15px;
+    border-radius: 5px;
+    border: 1.5px solid #343434;
+    font-family: 'orbitron', sans-serif;
+}
+.button-join{
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-family: 'orbitron', sans-serif;
+}
+.contact-heading{
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    color: #343434;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.icons span img{
+    height: 25px;
+    margin: 0 5px;
+}
